@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Two || Column</title>
+	<link href="stylesheet.css" type="text/stylesheet" rel="stylesheet">
+</head>
+
+<script>
+*{box-sizing: border-box;}
+body {margin: 0px;}
+
+.rec {padding: 50px;}
+
+.rec p:first-child, .rec p:last-of-type {
+	background-color: black;
+	border: 70px solid black;
+	margin: 0px;
+	clear: both;
+	}
+
+.rec p:nth-child(2){
+	background-color: red;
+	border: 210px solid red;
+	float:left;
+	min-width:63%;
+}
+ 
+.rec p:nth-child(3){
+	background-color: green;
+	border: 210px solid green;
+	float:right;
+	min-width:30%;
+}
+</script>
+
+<body>
+	<div class="rec">
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+	</div>
+</body>
+</html>
