@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>||| Column</title>
+	<link href="threeColumn.css" type="text/stylesheet" rel="stylesheet">
+</head>
+<script>
+*{box-sizing: border-box;}
+.rec {
+	display: table;
+	margin: 5% 20px;
+	table-layout: auto;
+}
+.rec p:first-child, .rec p:last-of-type {
+	background-color: black;
+	border: 30px solid black;
+	margin: 0px;
+	clear: both;
+}
+.rec p:nth-child(2), .rec p:nth-child(4){
+	background-color: yellow;
+	border: 120px solid yellow;
+	float:left;
+	min-width:1em;
+	min-height: 25em;
+}
+.rec p:nth-child(3){
+	background-color: red;
+	border: 120px solid red;
+	float: left;
+	min-width:45em;
+	min-height: 25em;
+	margin: 16px 10px 0px 10px;
+}
+
+</script>
+<body>
+	<div class="rec">
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+	</div>
+</body>
+</html>
