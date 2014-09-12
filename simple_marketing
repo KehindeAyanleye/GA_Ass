@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>simple_marketing</title>
+	<link href="simple_marketing.css" type="text/stylesheet" rel="stylesheet">
+</head>
+<script>
+*{box-sizing: border-box;}
+
+.rec p:first-child, .rec p:last-of-type {
+	background-color: black;
+	border: 30px solid black;
+	clear: both;
+	margin: 10px 0px;
+}
+.rec p:nth-child(2){
+	background-color: yellow;
+	border: 120px solid yellow;
+	float:left;
+	min-width:49.5%;
+	margin: 0px 0px 5px 0px;
+}
+.rec p:nth-child(3){
+	background-color: red;
+	border: 120px solid red;
+	float: right;
+	min-width:49.5%;
+	margin: 0px 0px 5px 0px;
+}
+.rec p:nth-child(4){
+	background-color: green;
+	border: 60px solid green;
+	min-width:33%;
+	float: left;
+	margin: 5px 0px 10px 0px;
+}
+.rec p:nth-child(5){
+	background-color: pink;
+	border: 60px solid pink;
+	min-width:33%;
+	float: right;
+	margin: 5px 0px 10px 10px;
+}
+.rec p:nth-child(6){
+	background-color: blue;
+	border: 60px solid blue;
+	min-width:33%;
+	float: right;
+	margin: 5px 0px 10px 0px;
+}
+</script>
+
+<body>
+	<div class="rec">
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+	</div>
+</body>
+</html>
