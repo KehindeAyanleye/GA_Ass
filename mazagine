@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mazagine</title>
+	<link href="magazine.css" type="text/stylesheet" rel="stylesheet">
+</head>
+<script>
+*{box-sizing: border-box;}
+
+.rec p:first-child{
+	background-color: black;
+	border: 30px solid black;
+	float: left;
+	width:35%;
+	height: 80px;
+}
+.rec p:nth-child(2){
+	background-color: yellow;
+	border: 20px solid yellow;
+	float:left;
+	min-width:10%;
+	margin: 30px 10px 10px 139px;
+}
+.rec p:nth-child(3){
+	background-color: red;
+	border: 20px solid red;
+	float: left;
+	min-width:10%;
+	margin: 30px 10px 10px 0px;
+}
+.rec p:nth-child(4){
+	background-color: green;
+	border: 20px solid green;
+	min-width:10%;
+	float: left;
+	margin: 30px 10px 10px 0px;
+}
+.rec p:nth-child(5){
+	background-color: pink;
+	border: 20px solid pink;
+	min-width:10%;
+	float: left;
+	margin: 30px 10px 10px 0px;
+}
+.rec p:nth-child(6){
+	background-color: purple;
+	border: 20px solid purple;
+	min-width:10%;
+	float: left;
+	margin: 30px 10px 10px 0px;
+}
+.rec p:nth-child(7){
+	background-color: blue;
+	border: 180px solid blue;
+	float: left;
+	clear: left;
+	height: 472px;
+	margin-top: 0px;
+}
+.rec p:nth-child(8){
+	background-color: red;
+	border: 30px solid red;
+	float: left;
+	min-width: 880px;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+.rec p:nth-child(9){
+	background-color: purple;
+	border: 40px solid purple;
+	min-width:53.9%;
+	float: left;
+	height: 200px;
+	margin: -5px 0px 0px 10px;
+}
+.rec p:nth-child(10){
+	background-color: green;
+	border: 40px solid green;
+	min-width:15.2%;
+	float: left;
+	height: 200px;
+	margin: -5px 0px 0px 10px;
+}
+.rec p:nth-child(11){
+	background-color: red;
+	border: 40px solid red;
+	min-width:10%;
+	float: left;
+	margin: 10px 0px 0px 10px;
+	height: 190px;
+	min-width: 212.7px;
+}
+.rec p:nth-child(12){
+	background-color: yellow;
+	border: 40px solid yellow;
+	min-width:10%;
+	float: left;
+	margin: 10px 0px 0px 10px;
+	height: 190px;
+	min-width: 212.7px;
+}
+.rec p:nth-child(13){
+	background-color: blue;
+	border: 40px solid blue;
+	min-width:10%;
+	float: left;
+	margin: 10px 0px 0px 10px;
+	height: 190px;
+	min-width: 212.7px;
+}
+.rec p:nth-child(14){
+	background-color: yellow;
+	border: 40px solid yellow;
+	min-width:10%;
+	float: left;
+	margin: 10px 0px 0px 10px;
+	height: 190px;
+	min-width: 212.7px;
+}
+.rec p:last-of-type {
+	background-color: black;
+	border: 30px solid black;
+	clear: both;
+	height: 80px;
+}
+<script>
+<body>
+	<div class="rec">
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+	</div>
+</body>
+</html>
