@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>magazine</title>
+	<link href="magazine.css" type="text/stylesheet" rel="stylesheet">
+</head>
+<script>
+*{box-sizing: border-box;}
+
+.rec p:first-child, .rec p:last-of-type{
+	background-color: black;
+	border: 30px solid black;
+	height: 80px;
+}
+.rec p:last-of-type {
+	clear: both;
+}
+.rec p:first-child {
+	float: left;
+	width:35%;
+}
+.rec p:nth-child(2), .rec p:nth-child(3), .rec p:nth-child(4), .rec p:nth-child(5), .rec p:nth-child(6){
+	background-color: yellow;
+	border: 20px solid yellow;
+	float:left;
+	min-width:10%;
+	margin: 30px 10px 10px 139px;
+}
+.rec p:nth-child(3), .rec p:nth-child(4), .rec p:nth-child(5), .rec p:nth-child(6){
+	margin: 30px 10px 10px 0px;
+}
+
+.rec p:nth-child(7){
+	background-color: blue;
+	border: 180px solid blue;
+	float: left;
+	clear: left;
+	height: 552px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.rec p:nth-child(8){
+	background-color: red;
+	border: 30px solid red;
+	float: left;
+	min-width: 880px;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+.rec p:nth-child(9), .rec p:nth-child(10){
+	background-color: purple;
+	border: 40px solid purple;
+	min-width:52%;
+	float: left;
+	height: 280px;
+	margin: -5px 0px 0px 10px;
+}
+.rec p:nth-child(10){
+	min-width:17%;
+}
+.rec p:nth-child(11), .rec p:nth-child(12), .rec p:nth-child(13), .rec p:nth-child(14){
+	background-color: red;
+	border: 40px solid red;
+	min-width:10%;
+	float: left;
+	margin: 10px 0px 0px 10px;
+	height: 190px;
+	min-width: 212.7px;
+}
+</script>
+<body>
+	<div class="rec">
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+	</div>
+</body>
+</html>
