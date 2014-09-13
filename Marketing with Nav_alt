@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marketing with Nav</title>
+	<link href="Marketing with Nav.css" type="text/stylesheet" rel="stylesheet">
+</head>
+<script>
+*{box-sizing: border-box;}
+
+.rec p:first-child{
+	background-color: black;
+	border: 40px solid black;
+	float: left;
+	min-width:25%;
+}
+
+.rec p:nth-child(2), .rec p:nth-child(3), .rec p:nth-child(4), .rec p:nth-child(5){
+	background-color: yellow;
+	border: 20px solid yellow;
+	float:left;
+	min-width:14%;
+	margin: 35px 15px 0px 0px;
+}
+.rec p:nth-child(2){
+	margin: 35px 15px 0px 195px;
+}
+.rec p:nth-child(5){
+	margin: 35px 0px 15px 0px;
+}
+.rec p:nth-child(6){
+	background-color: blue;
+	border: 120px solid blue;
+	clear: both;
+	height: 350px;
+}
+.rec p:nth-child(7), .rec p:nth-child(8), .rec p:nth-child(9){
+		background-color: red;
+	border: 40px solid red;
+	margin: 0px 25px 15px 0px;
+	min-width:32%;
+	height: 150px;
+	float: left;
+}
+.rec p:nth-child(9){
+	background-color: red;
+	border: 40px solid red;
+	margin: 0px 0px 15px 0px;
+}
+.rec p:last-of-type {
+	background-color: black;
+	border: 40px solid black;
+	clear: both;
+}
+</script>
+<body>
+	<div class="rec">
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+	</div>
+</body>
+</html>
