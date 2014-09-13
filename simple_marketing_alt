@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>simple_marketing</title>
+	<link href="simple_marketing.css" type="text/stylesheet" rel="stylesheet">
+</head>
+<script>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>simple_marketing</title>
+	<link href="simple_marketing.css" type="text/stylesheet" rel="stylesheet">
+</head>
+
+<body>
+	<div class="rec">
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+	</div>
+</body>
+</html>
+</script>
+<body>
+	<div class="rec">
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+	</div>
+</body>
+</html>
