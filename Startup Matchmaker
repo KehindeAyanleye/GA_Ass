@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+	<title>Startup Matchmaker</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="statup_matchmaker.css">
+	<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+</head>
+
+<script>
+{box-sizing: border-box;}
+body{
+	background-image: url("images/coworking.jpg");
+	background-size: cover;
+}
+header{
+	border: 1px solid black;
+	background-color: black;
+	min-width: 3px;
+}
+h1{
+	margin-left: 50px;
+	color: yellow;
+	font-size: 25px;
+	font-family: 'Merriweather', serif;
+}
+nav a{
+	color: white;
+	display: inline;
+	margin-top: 70px;
+}
+.fne, .sne{
+	display: inline;
+}
+.container {
+	background-color: #DDDDDD;
+	margin-top: 18%;
+	padding: 20px 20px;
+}
+.container article{
+	display: inline-block;
+	width: 33%;
+	border-right: 1px solid black;
+}
+footer{
+	background-color: black;
+	color: white;
+	padding: 30px;
+}
+</script>
+
+<body>
+
+	<header>
+		<h1>Startup Matchmaker</h1>
+		<nav>
+		<div class="fne">
+			<a href="">DEVELOPERS</a>
+			<a href="">DESIGNERS</a>
+		</div>
+		<div class="sne">
+			<a href="">How it Works</a>
+			<a href="">Our Team</a>
+			<a href="">Blog</a>
+		</div>
+		</nav>
+	</header>
+
+	<h3>Because two brains <span = class"colorit">taste</span><span = class"lineit">are</span>better than one.
+	</h3>
+	
+	<article>
+		<h2>Meet Your Match!</h2>
+		<p>Have a great idea for a product, but need help making it a reality? We're here to help. Startup Matchmaker is the best place for designers and developers to find each other.</p>
+		<h4>CREATE A PROFILE</h4>
+	</article>
+
+	<div class="container">
+		<article>
+			<h2>Create a Profile</h2>
+			<p>Are you a Designer? Developer? Put yourself out there so others can find you!</p>
+			<h4>SIGN UP NOW</h4>
+		</article>
+
+		<article>
+			<h2>Find a Developer</h2>
+			<p>Looking for a fantastic developer to work with on the next big thing? Look no further.</p>
+			<h4>START YOU SEARCH</h4>
+		</article>
+
+		<article>
+			<h2>Find a Designer</h2>
+			<p>Need someone who can make a product intuitive and appealing? Get ready.</p>
+			<h4>START YOU SEARCH</h4>
+		</article>
+	</div>
+
+	<footer>&copy 2013 Startup Matchmaker.Made in NY.</footer>
+
+
+	<div = class=""></div>
+	<aside></aside>
+</body>
