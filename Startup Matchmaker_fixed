@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Startup Matchmaker</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="startup_matchmaker.css">
+	<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+</head>
+<script>
+*{box-sizing:border-box;}
+
+body {
+	background-size: 100%;
+	background-image: url("images/coworking.jpg");
+	background-repeat: no-repeat;
+	color: green;
+	margin: 0em 0em 0em 0em;
+	color: #000000;
+	font-family: 'Merriweather', serif;
+}
+
+header {
+	display: block;
+	background-color: black;
+	border-bottom: 5px solid yellow;
+	margin: 0% 0% 0% 0%;
+	width: 100%;
+	padding: 20px 0px 20px 0px;
+}
+nav {
+	margin-left: 400px;
+}
+nav a{
+	font-family: 'Oswald', sans-serif;
+	color: #FFFFFF;
+	margin-left: 30px; 
+}
+#subheader {
+	background-color: #BBBBBB;
+	height: 65px;
+	margin: 0px 0px 0px 0px;
+	font-weight: bolder;
+}
+
+.container{
+	background-color: #EEEEEE;
+	margin: 50% 0px 0px 0px;
+	width: auto;
+	padding: 20px 0px 20px 0px;
+} 
+.container article{
+	width: 15%;
+	display: inline-block;
+	margin: 0% 5% 0% 10%;
+	padding: 10px 0px 30px 0px;
+	font-size: 18px;
+}
+aside{
+	float: left;
+	background-color: #EEEEEE;
+	max-width: 30%;
+	min-height: 19em;
+	padding: 40px 30px 50px 30px;
+	margin: 8% 0% 0% 60%;
+	line-height: 39px;
+	font-size: 23px;
+}
+button{
+	padding: 0px;
+}
+h1{
+	color: #EEEE33;
+	margin: 0px;
+}
+h2{
+	margin: 0px;
+}
+
+h3{
+
+	margin: 0px;
+}
+p{
+	margin: 0px;
+}
+footer{
+	background-color: black;
+	color: white;
+	min-height: 40px;
+}
+<script>
+<body>
+	<header>
+		<h1>Startup Matchmaker</h1>
+		<nav>
+		<a href="">DEVELOPERS</a>
+		<a href="">DESIGNERS</a>
+		<a href="">How it Works</a>
+		<a href="">Our Team</a>
+		<a href="">Blog</a>
+	</nav>
+	</header>
+	
+	
+
+	<div id = "subheader">
+		<h3>Because two brains <span>taste </span><span>are </span>better than one.</h3>
+	</div>
+
+	<aside>
+		<h2>Meet Your Match!</h2>
+		<p>Have a great idea for a product, but need help making it a reality? We're here to help. Startup Matchmaker is the best place for designers and developers to find each other.</p>
+		<button>CREATE A PROFILE</button>
+		<div class="box"></div>
+	</aside>
+
+
+	<div class="container">
+		<article>
+			<h2>Create a Profile</h2>
+			<p>Are you a Designer? Developer? Put yourself out there so others can find you!</p>
+			<button>SIGN UP NOW</button>
+		</article>
+
+		<article>
+			<h2>Find a Developer</h2>
+			<p>Looking for a fantastic developer to work with on the next big thing? Look no further.</p>
+			<button>START YOU SEARCH</button>
+		</article>
+
+		<article>
+			<h2>Find a Designer</h2>
+			<p>Need someone who can make a product intuitive and appealing? Get ready.</p>
+			<button>START YOU SEARCH</button>
+		</article>
+	</div>
+
+	
+	<footer>&copy 2013 Startup Matchmaker.Made in NY.</footer>
+
+	</html>
+</body>
