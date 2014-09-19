@@ -1,0 +1,125 @@
+*{box-sizing:border-box;}
+
+body {
+	width: 100%;
+	background-size: 100%;
+	background-image: url("http://i.imgur.com/tXjnt6f.jpg?1");
+	background-repeat: no-repeat;
+	margin: 0em 0em 0em 0em;
+	color: #000000;
+	font-family: 'Merriweather', serif;;
+}
+header {
+	display: block;
+	background-color: black;
+	border-bottom: 0.25em solid yellow;
+	margin: 0% 0% 0% 0%;
+	width: 100%;
+	padding: 1.4% 0% 1.4% 0%;
+}
+nav {
+	margin-left: 40%;
+}
+nav a{
+	font-family: 'Oswald', sans-serif;
+	color: #FFFFFF;
+	margin-left: 1em;
+	text-decoration: none;
+}
+#subheader {
+	background-color: #BBBBBB;
+	height: 3em;
+	margin: 0% 0% 0% 0%;
+	font-weight: 700;
+	font-size: 1em;
+	padding: 0% 0% 0% 0%;
+}
+#subheader > h3{
+	position: relative;
+	top: 30%;
+	padding: 0% 0% 0% 0%;
+	margin: 0% 0% 0% 30%;
+	letter-spacing: 0.15em;
+}
+#a{
+	color: #888888;
+	text-decoration: line-through;
+}
+#b{
+	border-bottom: 0.2em solid yellow;
+	font-style: oblique;
+}
+.container{
+	background-color: #EEEEEE;
+	margin: 50% 0% 0% 0%;
+	width: auto;
+	padding: 2% 0% 2% 0%;
+} 
+.container article{
+	width: 25%;
+	display: inline-block;
+	font-size: 1em;
+}
+.aone{
+	border-right: 0.1em solid black;
+	margin:0% 0% 0% 13%;
+	padding: 1% 7% 1% 0%;
+	line-height: 3em;
+}
+.atwo{
+	border-right: 0.1em solid black;
+	margin:0% 0% 0% 5%;
+	padding: 1% 7% 1% 0%;
+	line-height: 3em;
+}
+.athree{
+	margin:0% 0% 0% 5%;
+	line-height: 4em;
+	padding: 1% 7% 1% 0%;
+}
+
+aside{
+	display: inline-block;
+	float: left;
+	background-color: rgba(230, 230, 230, 0.7);
+	box-shadow: 0em 0.3em 0.3em #111111;
+	padding: 4% 3% 5% 3%;
+	margin: 10% 3% 0% 67%;
+	width: 30%;
+	height: 21em;
+	line-height: 2em;
+	font-size: 1em;
+}
+
+h1{
+	font-weight: 400;
+	color: #EEEE33;
+	margin: 0% 0% 0% 12%;
+	font-size: 2.3em;
+}
+h2{
+	margin: 0%;
+}
+.container p{
+	line-height: 2em;
+	font-size: 1em;
+	margin: 0% 0% 0% 0%;
+	color: black;
+}
+button{
+	background-color: #EEEE33;
+	border: 0.25em solid #EEEE33;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 580;
+	font-size: 1em;
+	padding: 0% 8%;
+	box-shadow: 0em 0.3em 0em 0em #DDDD22;
+	border-radius: 0.15em;
+	line-height: 1.7em;
+}
+footer{
+	background-color: black;
+	color: white;
+	min-height: 4%;
+	padding: 1.2%;
+}
