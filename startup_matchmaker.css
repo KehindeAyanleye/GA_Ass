@@ -25,6 +25,7 @@ nav a{
 	color: #FFFFFF;
 	margin-left: 1em;
 	text-decoration: none;
+	font-size: 1em;
 }
 #subheader {
 	background-color: #BBBBBB;
@@ -40,6 +41,18 @@ nav a{
 	padding: 0% 0% 0% 0%;
 	margin: 0% 0% 0% 30%;
 	letter-spacing: 0.15em;
+}
+@media (max-width: 800px) {
+ #subheader {
+  	font-size: 0.6em;
+  	height: 2.3em;
+  }
+  #subheader > h3{
+  	margin: 0% 0% 0% 20%;
+  }
+  nav a{
+  	font-size: 0.7em;
+  }
 }
 #a{
 	color: #888888;
@@ -59,23 +72,33 @@ nav a{
 	width: 25%;
 	display: inline-block;
 	font-size: 1em;
+	vertical-align: middle;
 }
 .aone{
 	border-right: 0.1em solid black;
-	margin:0% 0% 0% 13%;
+	margin:0% 0% 0% 10%;
 	padding: 1% 7% 1% 0%;
-	line-height: 3em;
+	line-height: 2.5em;
 }
 .atwo{
 	border-right: 0.1em solid black;
 	margin:0% 0% 0% 5%;
-	padding: 1% 7% 1% 0%;
-	line-height: 3em;
+	padding: 1% 4% 1% 0%;
+	line-height: 2.5em;
 }
 .athree{
 	margin:0% 0% 0% 5%;
-	line-height: 4em;
+	line-height: 2.5em;
 	padding: 1% 7% 1% 0%;
+}
+@media (max-width: 800px) {
+	.container{
+		margin: 40% 0% 0% 0%;
+	}
+	.container article{
+		width: 25%;
+		font-size: 0.4em;
+	}
 }
 
 aside{
@@ -123,3 +146,16 @@ footer{
 	min-height: 4%;
 	padding: 1.2%;
 }
+
+
+@media (max-width: 800px) {
+  aside {
+  	width: 35%;
+  	font-size: 0.01em;
+  	margin: 1.5% 7% 0% 63%;
+  }
+  	h1{
+		font-size: 1.5em;
+  }
+}
+
